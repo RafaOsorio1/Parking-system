@@ -15,9 +15,9 @@ export class Application {
   private configureCore(): void {
     this.app.use(
       cors({
-        origin: [process.env.CLIENT_URL || "http://127.0.0.1:5173", "http://localhost:5173"],
+        origin: "*",
         methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
-        credentials: true
+        credentials: true,
       }),
     );
 
