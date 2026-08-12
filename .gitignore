@@ -1,0 +1,16 @@
+# Entornos y secretos
+.env
+.env.local
+.env.*.local
+
+# Dependencias
+node_modules/
+
+# Archivos del sistema operativo (Mac/Windows)
+.DS_Store
+Thumbs.db
+
+# Builds y logs
+dist/
+build/
+npm-debug.log*
